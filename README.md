@@ -1,7 +1,8 @@
 # iHavPriceCalc_KR
 simple script that shows 1ea price on iHavanas. 
 
-1. 오른쪽 위 초록색 <Code> > Download ZIP 선택해 다운로드. 
+1. 오른쪽 위 초록색 Code -> Download ZIP 선택해 다운로드. 
+![image](https://user-images.githubusercontent.com/76888767/233263238-3116d2bf-f7f0-4211-a910-a928aaa76a07.png)
 
 2. 다운로드 받은 파일 압축 해제
 
@@ -9,4 +10,6 @@ simple script that shows 1ea price on iHavanas.
 
 4. '압축해제된 확장 프로그램을 로드합니다.' 클릭 후 압축 해제한 폴더 선택 (iHavPriceCalc_KR-main 폴더)
 
-5. ihavanas.com 으로 이동해 작동 확인
+5. ihavanas.com 으로 이동해 아래와 같이 작동하는지 확인
+
+![image](https://user-images.githubusercontent.com/76888767/233263300-5fc34fd6-4a1b-427a-8ee5-4e5825a5bef6.png)
