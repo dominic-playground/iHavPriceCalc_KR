@@ -2,6 +2,7 @@
 simple script that shows 1ea price on iHavanas. 
 
 1. 오른쪽 위 초록색 Code -> Download ZIP 선택해 다운로드. 
+
 ![image](https://user-images.githubusercontent.com/76888767/233263238-3116d2bf-f7f0-4211-a910-a928aaa76a07.png)
 
 2. 다운로드 받은 파일 압축 해제
