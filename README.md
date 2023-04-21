@@ -24,5 +24,4 @@
 
 5. ihavanas.com 으로 이동해 아래와 같이 작동하는지 확인
 
-
-![image](https://user-images.githubusercontent.com/76888767/233263300-5fc34fd6-4a1b-427a-8ee5-4e5825a5bef6.png)
+![image](https://user-images.githubusercontent.com/76888767/233573289-6188536e-7cda-42ea-b693-8448e9431885.png)
