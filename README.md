@@ -1,7 +1,10 @@
-# iHavPriceCalc_KR
+# iHavPriceCalc_KR 사용방법
+
 (PC만 사용 가능)
 
-1. 오른쪽 위 초록색 Code -> Download ZIP 선택해 다운로드. 
+---
+
+1. 압축 파일 [다운로드](https://github.com/d-playground/iHavPriceCalc_KR/archive/refs/heads/main.zip)
 
 ![image](https://user-images.githubusercontent.com/76888767/233263238-3116d2bf-f7f0-4211-a910-a928aaa76a07.png)
 
@@ -11,18 +14,15 @@
 
 
 
-3. [크롬 확장프로그램 관리자](chrome://extensions/) 우상단의 '개발자 모드' 켜기
-  chrome://extensions/
+3. 주소창에 chrome://extensions/ 입력, 우상단의 '개발자 모드' 켜기
+
+
+
+4. 좌상단의 '압축해제된 확장 프로그램을 로드합니다.' 클릭 -> 2번에서 압축 해제한 폴더 선택 (iHavPriceCalc_KR-main 폴더)
 
 
 
 
-4. '압축해제된 확장 프로그램을 로드합니다.' 클릭 -> 압축 해제한 폴더 선택 (iHavPriceCalc_KR-main 폴더)
+5. [ihavanas](https://www.ihavanas.com/) 으로 이동해 아래와 같이 작동하는지 확인
 
-
-
-
-5. ihavanas.com 으로 이동해 아래와 같이 작동하는지 확인
-
-
-![image](https://user-images.githubusercontent.com/76888767/233263300-5fc34fd6-4a1b-427a-8ee5-4e5825a5bef6.png)
+![image](https://user-images.githubusercontent.com/76888767/233573289-6188536e-7cda-42ea-b693-8448e9431885.png)
