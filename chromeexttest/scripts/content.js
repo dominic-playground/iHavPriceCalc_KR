@@ -37,5 +37,5 @@ productPanels.forEach((productPanel) => {
     boxSizeEl.appendChild(document.createElement('br'));
     boxSizeEl.appendChild(boxCountEl);
     boxSizeEl.appendChild(price > 150 ? afterTaxEl : pricePerUnitEl);
-});
+  });
 });
