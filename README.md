@@ -1,4 +1,5 @@
 # iHavPriceCalc_KR
+(PC만 사용 가능)
 
 1. 오른쪽 위 초록색 Code -> Download ZIP 선택해 다운로드. 
 
