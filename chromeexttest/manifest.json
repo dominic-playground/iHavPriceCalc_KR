@@ -2,7 +2,7 @@
   "manifest_version": 3 ,
   "name": "iHavanas 개당 가격 표시기",
   "version": "1.0",
-  "description": "iHavanas에서 개당 가격 표시. $150 이하는 부과되지 않고, $150 초과시 모든 세금이 부과된다는 가정 하에 가격을 계산함.",
+  "description": "iHavanas에서 개당 가격 표시. $150 이하는 부과되지 않고, $150 초과시 모든 세금이 부과된다는 가정 하에 가격을 계산함. 개당 가격에 따라 글씨 색상이 달라짐 ($10대: 초록, $20대: 파랑, $30대: 빨강)",
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
