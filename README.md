@@ -25,8 +25,13 @@
 ![image](https://user-images.githubusercontent.com/76888767/233936743-3175f3a6-0388-4295-bc13-38910b99fdfa.png)
 
 
+5. 잘 로드되었는지 확인
+
+![image](https://user-images.githubusercontent.com/76888767/233938520-19ccfb46-4074-4748-9a43-bfe1df2a1c92.png)
 
 
-5. [ihavanas](https://www.ihavanas.com/) 으로 이동해 아래와 같이 작동하는지 확인
+
+
+6. [ihavanas](https://www.ihavanas.com/) 으로 이동해 아래와 같이 작동하는지 확인
 
 ![image](https://user-images.githubusercontent.com/76888767/233573289-6188536e-7cda-42ea-b693-8448e9431885.png)
