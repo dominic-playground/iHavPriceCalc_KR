@@ -20,7 +20,7 @@
 
 
 
-4. 좌상단의 '압축해제된 확장 프로그램을 로드합니다.' 클릭 -> 2번에서 압축 해제한 폴더 선택 (chromeexttest 폴더)
+4. 좌상단의 '압축해제된 확장 프로그램을 로드합니다.' 클릭 -> 2번에서 압축 해제한 폴더 선택 (cigarPricePerUnit 폴더)
 
 ![image](https://user-images.githubusercontent.com/76888767/233936743-3175f3a6-0388-4295-bc13-38910b99fdfa.png)
 
