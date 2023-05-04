@@ -32,6 +32,8 @@
 
 
 
-6. [ihavanas](https://www.ihavanas.com/) 으로 이동해 아래와 같이 작동하는지 확인
+6. [ihavanas](https://www.ihavanas.com/) 또는 [topcubans](topcubans.com/) 으로 이동해 아래와 같이 작동하는지 확인
 
 ![image](https://user-images.githubusercontent.com/76888767/233573289-6188536e-7cda-42ea-b693-8448e9431885.png)
+![image](https://user-images.githubusercontent.com/76888767/236140001-7fd5b101-c410-4d61-a3b9-ee9d570bacc0.png)
+
