@@ -21,6 +21,8 @@ productPanels.forEach((productPanel) => {
 
     if (price > 150) {
       afterTaxEl.innerHTML = `\n 개당: $${afterTaxKr.toFixed(2)}<br>(150초과)`;
+    } else if (boxCount * boxQty > 50) {
+      afterTaxEl.innerHTML = `\n 개당: $${afterTaxKr.toFixed(2)}<br>(50개 초과)`;
     } else {
       pricePerUnitEl.textContent = `\n 개당: $${pricePerUnit.toFixed(2)}`;
     }
