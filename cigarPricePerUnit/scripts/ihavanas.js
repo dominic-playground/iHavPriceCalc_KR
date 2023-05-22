@@ -9,7 +9,7 @@ productPanels.forEach((productPanel) => {
 
     const priceStr = panel.querySelector('.current_price').textContent.replace('US$ ', '');
     const price = parseFloat(priceStr.match(/[\d\.]+/));
-    const pricePerUnit = price / boxQty / boxCount;
+    const pricePerUnit = price / boxQty / boxCount + 2;
     const afterTaxKr = pricePerUnit * 1.54 + 2;
 
     const pricePerUnitEl = document.createElement('span');
