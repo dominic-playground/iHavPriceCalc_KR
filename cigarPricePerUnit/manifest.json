@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "cigar 개당 가격 표시기",
   "version": "1.1",
-  "description": "iHavanas/Topcubans에서 개당 가격 표시. iHavanas기준 $150 이하는 부과되지 않고, $150 초과시 모든 세금이 부과된다는 가정 하에 가격을 계산함.",
+  "description": "iHavanas/Topcubans에서 개당 가격 표시. ihav->$150 이하는 g당 세금 개당 +$2 추가 / $150이상은 관부가세 추가+g당 세금 추가.",
   "content_scripts": [
     {
       "js": [
