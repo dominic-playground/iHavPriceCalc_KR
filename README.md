@@ -34,6 +34,13 @@
 
 6. [ihavanas](https://www.ihavanas.com/) 또는 [topcubans](topcubans.com/) 으로 이동해 아래와 같이 작동하는지 확인
 
-![image](https://user-images.githubusercontent.com/76888767/233573289-6188536e-7cda-42ea-b693-8448e9431885.png)
-![image](https://user-images.githubusercontent.com/76888767/236140001-7fd5b101-c410-4d61-a3b9-ee9d570bacc0.png)
+![image](https://github.com/d-playground/iHavPriceCalc_KR/assets/76888767/6f28c4b6-76d3-43ff-99f5-7a22b527da5e)
+
+![image](https://github.com/d-playground/iHavPriceCalc_KR/assets/76888767/353298c2-3ddc-4291-af4a-b7e8d4a97ef8)
+
+![image](https://github.com/d-playground/iHavPriceCalc_KR/assets/76888767/39af00ba-cebb-424e-bd15-b110ebf71ba0)
+
+- 별표 표시 (*)는 150달러 초과 또는 50개비 이상으로. 관부가세 포함된 가격임
+- 개당 가격에는 담배소비세 등 기본적으로 내는 세금(약 +$2)이 같이 계산됨.
+- Topcubans는 관부가세가 거의 나오지 않아, 세금 가격 제외함. 다만 나올 가능성은 언제나 존재하니 맹신하지 말아주세요. (coh, ihavanas는 거의 100% 부과됨)
 
