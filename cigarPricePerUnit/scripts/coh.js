@@ -7,15 +7,17 @@ function processMainPage() {
     const price = parseFloat(table.querySelector('.redtxt').textContent);
     const boxCount = parseInt(cigarBoxCount.match(/\d+/)[0]);
 
-    const pricePerUnit = price / boxCount;
-    const afterTaxKr = pricePerUnit * 1.54 + 2;
+    const pricePerUnit = price / boxCount + 2;
+    const afterTaxKr = price / boxCount * 1.54 + 2;
 
     const newCell = document.createElement('td');
     const pricePerUnitEl = document.createElement('span');
     const boxCountEl = document.createElement('span');
 
     if (price > 150) {
-      pricePerUnitEl.textContent = `${boxCount}개/개당$${afterTaxKr.toFixed(2)}`;
+      pricePerUnitEl.textContent = `*${boxCount}개/개당$${afterTaxKr.toFixed(2)}`;
+    } else if (boxCount > 50) {
+      pricePerUnitEl.textContent = `*${boxCount}개/개당$${afterTaxKr.toFixed(2)}`;
     } else {
       pricePerUnitEl.textContent = `${boxCount}개/개당$${pricePerUnit.toFixed(2)}`;
     }

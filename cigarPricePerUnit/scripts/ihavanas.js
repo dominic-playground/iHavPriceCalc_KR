@@ -9,21 +9,25 @@ productPanels.forEach((productPanel) => {
 
     const priceStr = panel.querySelector('.current_price').textContent.replace('US$ ', '');
     const price = parseFloat(priceStr.match(/[\d\.]+/));
-    const pricePerUnit = price / boxQty / boxCount + 2;
-    const afterTaxKr = pricePerUnit * 1.54 + 2;
+    const pricePerUnit = (price / boxQty / boxCount) + 2;
+    const afterTaxKr = (price / boxQty / boxCount) * 1.54 + 2;
 
     const pricePerUnitEl = document.createElement('span');
     const afterTaxEl = document.createElement('span');
     const boxCountEl = document.createElement('span');
 
-    boxCountEl.textContent = `\n 총 ${boxCount * boxQty}개 / `;
-    boxCountEl.style.color = 'white';
 
     if (price > 150) {
-      afterTaxEl.innerHTML = `\n 개당: $${afterTaxKr.toFixed(2)}<br>(150초과)`;
+      boxCountEl.textContent = `\n *${boxCount * boxQty}개 / `;
+      boxCountEl.style.color = 'white';
+      afterTaxEl.innerHTML = `\n 개당: $${afterTaxKr.toFixed(2)}<br>`;
     } else if (boxCount * boxQty > 50) {
-      afterTaxEl.innerHTML = `\n 개당: $${afterTaxKr.toFixed(2)}<br>(50개 초과)`;
+      boxCountEl.textContent = `\n *${boxCount * boxQty}개 / `;
+      boxCountEl.style.color = 'white';
+      afterTaxEl.innerHTML = `\n 개당: $${afterTaxKr.toFixed(2)}<br>`;
     } else {
+      boxCountEl.textContent = `\n ${boxCount * boxQty}개 / `;
+      boxCountEl.style.color = 'white';
       pricePerUnitEl.textContent = `\n 개당: $${pricePerUnit.toFixed(2)}`;
     }
 
