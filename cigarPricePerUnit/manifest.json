@@ -1,8 +1,8 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 1.3,
   "name": "cigar 개당 가격 표시기",
-  "version": "1.1",
-  "description": "iHavanas/Topcubans에서 개당 가격 표시. ihav->$150 이하는 g당 세금 개당 +$2 추가 / $150이상은 관부가세 추가+g당 세금 추가.",
+  "version": "1.2",
+  "description": "iHavanas/Topcubans/cohcigars에서 개당 가격 표시. 가격대별 색상 표기됨. topcubans 제외하고 관부가세까지 자동반영됨. ",
   "content_scripts": [
     {
       "js": [
@@ -18,6 +18,14 @@
       ],
       "matches": [
         "https://www.topcubans.com/*"
+      ]
+    },
+    {
+      "js": [
+        "scripts/coh.js"
+      ],
+      "matches": [
+        "https://www.cohcigars.com/*"
       ]
     }
   ]
