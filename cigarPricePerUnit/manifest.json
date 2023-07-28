@@ -1,7 +1,7 @@
 {
-  "manifest_version": 1.3,
+  "manifest_version": 3,
   "name": "cigar 개당 가격 표시기",
-  "version": "1.2",
+  "version": "1.3",
   "description": "iHavanas/Topcubans/cohcigars에서 개당 가격 표시. 가격대별 색상 표기됨. topcubans 제외하고 관부가세까지 자동반영됨. ",
   "content_scripts": [
     {
