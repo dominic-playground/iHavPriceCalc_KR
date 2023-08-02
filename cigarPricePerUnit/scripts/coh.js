@@ -1,13 +1,18 @@
+function deleteOldPrices() {
+  const oldPriceElements = document.querySelectorAll(".oldpricetxt_black");
 
+  oldPriceElements.forEach((oldPriceElement) => {
+    oldPriceElement.remove();
+  });}
 
-// Function for other page
-function processOtherPage() {
+function process() {
   const tables = document.querySelectorAll("table");
 
   tables.forEach((table) => {
     const productName = table.querySelector(".product_header_W") || table.querySelector(".product_header");
     const priceEl = table.querySelector(".pricetxt strong");
     const cigarBoxCount = table.querySelector(".fsize11 strong");
+    
 
     if (productName && priceEl && cigarBoxCount) {
       const priceText = priceEl.textContent.trim();
@@ -66,9 +71,5 @@ function processOtherPage() {
   });
 }
 
-// Call the functions based on the page
-if (document.querySelector('table[width="98%"]')) {
-  processMainPage();
-} else {
-  processOtherPage();
-}
+deleteOldPrices()
+processOtherPage();
